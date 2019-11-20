@@ -13,8 +13,8 @@
   src: url("fonts/univers-medium.ttf");
 }
 @font-face {
-  font-family:"Univers-Condensed";
-  src: url("fonts/univers-condensed.ttf");
+  font-family:"univers-condensed-bold";
+  src: url("fonts/univers-condensed-bold.ttf");
 }
 /* css */
 body{
@@ -80,18 +80,21 @@ main{
   text-shadow: 2px 0px 3px rgba(0,0,0,0.46);
 }
 #absolute{
-  width: 100%;
+  width: 70%;
   position: absolute;
-  margin-top: -21%;
-  text-align: center;
+  margin-top: -25%;
+  margin-left: 10%;
+  text-align: left;
 }
 #absolute h1{
-  font-size: 42pt;
+  font-family:"univers-condensed-bold";
+  font-size: 4vw;
   color: white;
   text-shadow: 2px 0px 3px rgba(0,0,0,0.46);
+  line-height: 1;
 }
 #absolute h2{
-  font-size: 18pt;
+  font-size: 1.5vw;
   color: white;
   text-shadow: 2px 0px 3px rgba(0,0,0,0.46);
 }
@@ -102,7 +105,7 @@ h2{
   font-size: 16pt;
 }
 h3{
-  font-size: 22pt;
+  font-size: 25pt;
   text-align: center;
   margin-top: 25px;
   margin-bottom: 20px;
@@ -126,14 +129,14 @@ h3{
   text-decoration: underline;
 }
 .Vigencia{
-  font-size: 10pt;
+  font-size: 1.2vw;
   margin-bottom: 0%;
   text-shadow: 2px 0px 3px rgba(0,0,0,0.46);
 }
 .TituloDestacado{
-  font-size: 22pt;
-  font-weight: 400;
-  font-family: "Univers-bold",sans-serif;
+  font-size: 3vw;
+  font-weight: bold;
+  font-family: "univers-condensed-bold",sans-serif;
   color: #4c148c;
   margin-top: 10%;
 }
@@ -322,7 +325,7 @@ h5{
   text-align: center;
 }
 .img-premios{
-  width: 270px;
+  width: 100%;
 }
 .naranja{background: #ff6600;}
 
@@ -353,16 +356,16 @@ h5{
 }
 .textWhite{
   color: white;
-  font-size: 14pt;
+  font-size: 1.2vw;
 }
 
 /* Seción lista para los ganadores */
 
 #SectionGanadores{
-  display:block;
+  display: none;
 }
 #Proximamente{
-  display: none;
+  display: block;
 }
 
 .ganadores{
@@ -776,7 +779,7 @@ footer h4{
     display: none;
   }
   #absolute{
-    margin-top: -24%;
+    margin-top: -33%;
   }
   #absolute h1{
     font-size: 32pt;
@@ -813,14 +816,15 @@ footer h4{
     font-size: 10pt;
   }
   .TituloDestacado{
-    font-size: 16pt;
+    font-size: 4vw;
     font-weight: 400;
-    font-family: "Univers-bold",sans-serif;
+    font-family: "univers-condensed-bold",sans-serif;
     color: #4c148c;
     margin-top: 10%;
     margin-bottom: 10%;
     text-align: left;
   }
+
   .Vigencia{
     font-size: 10pt;
     margin-bottom: 0%;
@@ -856,6 +860,15 @@ footer h4{
     position: static;
     bottom: auto;
   }
+  .TituloDestacado{
+    font-size: 30pt;
+    font-family: "univers-condensed-bold",sans-serif;
+    color: #4c148c;
+    margin-top: 0%;
+    margin-bottom: 10%;
+    text-align: center;
+  }
+
 }
 @media only screen and (max-width: 576px) {
   #absolute{
@@ -866,6 +879,15 @@ footer h4{
     /*position: absolute;*/
     bottom: 0;
   }
+  .TituloDestacado{
+    font-size: 30pt;
+    font-family: "univers-condensed-bold",sans-serif;
+    color: #4c148c;
+    margin-top: 0%;
+    margin-bottom: 10%;
+    text-align: center;
+  }
+  
 }
 
 @media only screen and (max-width: 426px) {
@@ -885,7 +907,13 @@ footer h4{
     display: none;
   }
   #absolute{
-    margin-top: -83%;
+    width: 100%;
+    margin-top: -70%;
+    text-align: center;
+    margin-left: 0%;
+  }
+  #absolute h1{
+    font-size: 1vw;
   }
   h1{
     font-size: 26pt !important;
@@ -970,13 +998,18 @@ footer h4{
     width: 100%;
   }
   .TituloDestacado{
-    font-size: 16pt;
-    font-weight: 400;
-    font-family: "Univers-bold",sans-serif;
+    font-size: 30pt;
+    font-family: "univers-condensed-bold",sans-serif;
     color: #4c148c;
     margin-top: 0%;
     margin-bottom: 10%;
     text-align: center;
+  }
+  .cont-premio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3%;
   }
   .Vigencia{
     font-size: 10pt;
@@ -1004,3 +1037,28 @@ footer h4{
   color: #4c148c;
   text-align: center;;
 }
+
+
+@media only screen and (max-width: 340px) {
+  #absolute{
+    margin-top: -90%;
+  }
+}
+
+
+.cont-premio{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 3%;
+}
+
+@media only screen and (min-width: 426px) and (max-width: 760px){
+  .cont-premio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3%;
+  }
+}
+
