@@ -1,0 +1,1006 @@
+
+/* Fuente tipografica */
+@font-face {
+  font-family:"Univers-Black";
+  src: url("fonts/Univers-Black.otf");
+}
+@font-face {
+  font-family:"Univers-bold";
+  src: url("fonts/univers-bold.ttf");
+}
+@font-face {
+  font-family:"Univers-medium";
+  src: url("fonts/univers-medium.ttf");
+}
+@font-face {
+  font-family:"Univers-Condensed";
+  src: url("fonts/univers-condensed.ttf");
+}
+/* css */
+body{
+  font-family: "Univers-Condensed",sans-serif;
+}
+img{
+  width: 100%;
+}
+a{
+  color: white;
+}
+a:hover{
+  color: white;
+}
+.textcenter a{
+  color: #4c148c;
+}
+/* Header */
+header{
+  font-family: "Univers-bold",sans-serif;
+}
+main{
+  width:100%;
+  background: white;
+}
+#Img-Logo{
+  width: 110px;
+  margin-left: 5%;
+  margin-right: 3%;
+}
+#NavFedex{
+  background: #4c148c;
+}
+.text-white{
+  color: white;
+}
+#icon-cuenta{
+  width: 40px;
+  margin-left: 1%;
+  margin-right: 5%;
+}
+.navbar-light .navbar-toggler{
+  border-color: white;
+}
+/* MAIN */
+#cont{
+  height: 100%;
+}
+#absolute-2{
+  padding-top: 15%;
+  padding-bottom: 10%;
+  height: 100%;
+  text-align: center;
+}
+#absolute-2 h1{
+  font-size: 42pt;
+  color: white;
+  text-shadow: 2px 0px 3px rgba(0,0,0,0.46);
+}
+#absolute-2 h2{
+  font-size: 18pt;
+  color: white;
+  text-shadow: 2px 0px 3px rgba(0,0,0,0.46);
+}
+#absolute{
+  width: 100%;
+  position: absolute;
+  margin-top: -21%;
+  text-align: center;
+}
+#absolute h1{
+  font-size: 42pt;
+  color: white;
+  text-shadow: 2px 0px 3px rgba(0,0,0,0.46);
+}
+#absolute h2{
+  font-size: 18pt;
+  color: white;
+  text-shadow: 2px 0px 3px rgba(0,0,0,0.46);
+}
+h1{
+  font-size: 46pt;
+}
+h2{
+  font-size: 16pt;
+}
+h3{
+  font-size: 22pt;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-family: "Univers-bold",sans-serif;
+}
+.bigtext{
+  font-size: 16pt;
+  color: #4c148c;
+  font-family: "Univers-bold",sans-serif;
+}
+#segundaSeccion h3 a{
+  color: black;
+  font-size: 18pt;
+  font-family: "Univers-Condensed",sans-serif;
+  text-decoration: underline;
+}
+#segundaSeccion h3{
+  color: #4c148c;
+}
+#segundaSeccion h3 a:hover{
+  text-decoration: underline;
+}
+.Vigencia{
+  font-size: 10pt;
+  margin-bottom: 0%;
+  text-shadow: 2px 0px 3px rgba(0,0,0,0.46);
+}
+.TituloDestacado{
+  font-size: 22pt;
+  font-weight: 400;
+  font-family: "Univers-bold",sans-serif;
+  color: #4c148c;
+  margin-top: 10%;
+}
+.btn{
+  margin-top: 2%;
+}
+.btn-shadow{
+  -webkit-box-shadow: 5px 9px 12px -1px rgba(0,0,0,0.42);
+  -moz-box-shadow: 5px 9px 12px -1px rgba(0,0,0,0.42);
+  box-shadow: 5px 9px 12px -1px rgba(0,0,0,0.42);
+}
+.btn-primary{
+  background: #ff6600;
+  border: none;
+  font-size: 14pt;
+}
+.btn-primary:hover{
+  background: #ff6600;
+}
+
+#SectionMecanica{
+  text-align: center;
+  margin-bottom: 3%;
+}
+.TextoMecanica{
+  padding: 0% 20% 0% 20%;
+  color: #4c148c;
+  font-weight: 700;
+  font-family: "Univers-bold", sans-serif;
+  line-height: 1.3;
+}
+.linkMecanica{
+  text-align: center;
+  font-size: 14pt;
+  color: #4c148c;
+  font-family: "Univers-bold",sans-serif;
+  font-weight: 700;
+  margin-bottom: -25px;
+  margin-top: 1.5%;
+}
+.linkMecanica:hover{
+  color: #4c148c;
+}
+.icono{
+  width: 40%;
+  margin-bottom: 20px;
+}
+/* Form Section */
+.Form{
+  background: #4c148c;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.Formulario{
+  width: 60%;
+}
+.underline{
+  text-decoration: underline;
+}
+input{
+  width: 100%;
+  height: 45px;
+  padding: 2%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+select{
+  width: 100%;
+  height: 45px;
+  padding: 2%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: #757575;
+}
+.TituloForm{
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+.Vertical{
+  height: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-left: 2px solid white;
+}
+footer .Vertical{
+  height: 20px;
+}
+.TituloForm h2{
+  font-size: 18pt;
+  font-family: "Univers-bold", sans-serif;
+}
+.TituloForm h2:last-child{
+  font-family: "Univers-Condensed", sans-serif;
+  font-weight: 100;
+  text-decoration: underline;
+}
+.align{
+  display: flex;
+  align-items: center;
+}
+.check{
+  margin:0px;
+  height: auto;
+}
+.checkboxesSection{
+  margin-top: 3%;
+}
+.col-2{
+  padding-right: 0%;
+  display: flex;
+}
+.col-10{
+  padding-left: 0%;
+}
+label{color:white;}
+
+.Links{
+  text-decoration: underline;
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
+.centerWrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.marginTop{
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+.EndPage{
+  margin-bottom: 10%;
+}
+h4{
+  font-size: 36pt;
+  margin-top: 3%;
+  margin-bottom: -1.8%;
+  color: #ff6600;
+  font-family: "Univers-bold", sans-serif;
+  text-align: center;
+}
+h5{
+  font-size: 36pt;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  color: #ff6600;
+  font-family: "Univers-bold", sans-serif;
+  text-align: center;
+}
+
+/*LogIn*/
+#LogIn{display: none;}
+.smallInput{
+  width: 50%;
+}
+.smalltext{
+  font-size: 12pt;
+}
+.ValidationLogIn{
+  width: 50%;
+  background: #c50029;
+  color: white;
+  padding: 0.1% 3% 0.1% 3%;
+  text-align: center;
+}
+.ValidationRegistro{
+  width: 100%;
+  background: #c50029;
+  color: white;
+  padding: 0.1% 3% 0.1% 3%;
+  text-align: center;
+}
+.ValidationCorrecta{
+  width: 100%;
+  background: green;
+  color: white;
+  padding: 0.1% 3% 0.1% 3%;
+  text-align: center;
+}
+.img-premios{
+  width: 270px;
+}
+.naranja{background: #ff6600;}
+
+/* Formulario de Recuperacion de ID y Contraseña */
+.linea{
+  height: 100%;
+  border-left: 1px solid white;
+}
+#Recuperacion{display:none;}
+#alertaNombre{display: none;}
+
+.Close{
+  font-size: 20pt;
+  color: white;
+  font-weight: 400;
+}
+.Close:hover{
+  text-decoration: none;
+}
+.right{
+  display: flex;
+  justify-content: flex-end;
+}
+#Recuperacion h2{
+  font-size: 24pt;
+  text-align: center;
+  text-decoration: none;
+}
+.textWhite{
+  color: white;
+  font-size: 14pt;
+}
+
+/* Seción lista para los ganadores */
+
+#SectionGanadores{
+  display:block;
+}
+#Proximamente{
+  display: none;
+}
+
+.ganadores{
+  background: #f8f6fb;
+}
+.Trofeo{
+  margin-top: 3%;
+  width: 15%;
+}
+
+.table{
+  width: 100%;
+}
+.scrollTable{
+  border:1px solid grey;
+  width: 60%;
+  margin: 3%;
+  margin-bottom: 5%;
+  height: 298px;
+  overflow: scroll;
+}
+.scrollTable::-webkit-scrollbar {
+    width: 10px;     /* Tamaño del scroll en vertical */
+    height: 0px;    /* Tamaño del scroll en horizontal */
+    background: #cdcdcd;
+}
+.scrollTable::-webkit-scrollbar-thumb{
+    background: #626262;
+}
+.headerTable{
+  width: 100%;
+  background: #4c148c;
+  color:white;
+}
+.none{
+  display: none;
+}
+tbody{
+  text-align: center;
+  color: #4c148c;
+}
+.centertable{
+  text-align: center;
+}
+
+.fireworks{
+  width: 100%;
+  position: absolute;
+}
+
+/* CALCULA & GANA | PAGINA */
+
+.margen{
+  margin-top: 6%;
+  margin-bottom: 5%;
+}
+.margen-img{
+  margin-top: 6%;
+  margin-bottom: 5%;
+}
+.margen h2{
+  font-size: 30pt;
+  font-family: "Univers-bold", sans-serif;
+}
+.MiCuenta{
+  min-height: 650px;
+}
+.CalculaPage{
+  min-height: 650px;
+}
+h6{
+  margin-top: 5%;
+  font-size: 26pt;
+  font-family: "Univers-bold", sans-serif;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.text{
+  font-size:14pt;
+  margin-bottom: 2%;
+}
+.table{
+  margin-bottom: 4%;
+}
+.btn-large{
+  width: 100%;
+  background: #ff6600;
+  color: white;
+  font-family: "Univers-bold", sans-serif;
+  padding: 2% 0% 2% 0%;
+  margin-bottom: 3%;
+}
+.modal-backdrop{
+  opacity: 1;
+  background: #4c148c;
+  z-index: -1;
+}
+.modal-backdrop.in{
+  opacity: 1;
+}
+.textcenter{
+  text-align: center;
+}
+
+
+/* ThankYou Page */
+.background-grey{
+  min-height: 650px;
+  background: #f8f6fb;
+}
+.thanksBox{
+  margin-top: 4%;
+  border: 1px solid #f8f6fb;
+  background: white;
+  padding: 10% !important;
+  padding-bottom: 10% !important;
+}
+
+/* Footer */
+footer{
+  display: flex;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  justify-content: center;
+  background: #4c148c;
+  font-weight: 100;
+}
+.bottom{
+  width: 100%;
+  /*position: absolute;*/
+  bottom: 0;
+}
+.bottom-max{
+  width: 100%;
+  /*position: absolute;*/
+  bottom: 0;
+}
+@media only screen and (max-height: 800px) {
+  .bottom{
+    width: 100%;
+    position: static;
+    bottom: auto;
+  }
+}
+  @media only screen and (max-height: 900px) {
+  .bottom-max{
+    width: 100%;
+    position: static;
+    bottom: auto;
+  }
+}
+.textFooter{
+  color: white;
+  text-align: center;
+  margin-top: 3%;
+  font-size: 8pt;
+}
+footer h4{
+  font-size: 10pt;
+  text-align: center;
+}
+.linea{
+  border-left: 1px solid white;
+  height: 20px;
+}
+.linea:first-child{
+  border-left: none;
+}
+.timer{
+  text-align: center;
+  font-size: 18pt;
+  font-family: "Univers-bold", sans-serif;
+  color: #4c148c;
+}
+.iconothanks{
+  width: 15%;
+  height: 100%;
+}
+.maxwidth{
+  width: 100%;
+  height: auto;
+}
+#CountDown{
+  display: none;
+  background: #4c148c !important;
+}
+#countdown{
+  font-family: "Univers-bold", sans-serif;
+  width: 100%;;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 5em;
+  text-align: center;
+  font-weight: bold;
+}
+#LoadModal .modal-content{
+  border:none !important;
+}
+#error{
+  display: none;
+  color: #4c148c;
+}
+.ImgModal{
+  width: 100%;
+  height: 80%;
+  margin:0%;
+  margin-bottom: 6%;
+}
+#LoadModal .modal-body{
+  padding-top: 0%;
+}
+.TitulosModal{
+  font-size: 26pt;
+  font-weight: 500;
+  margin-bottom: 4%;
+}
+.TitulosGame{
+  font-size: 32pt;
+  font-weight: 700;
+  margin-bottom: 6%;
+  margin-top: 0%;
+  text-align: center;
+}
+.ModalText{
+  padding: 0% 15% 4% 15%;
+  }
+  .modal-game{
+    -webkit-box-shadow: 5px 10px 13px 3px rgba(0,0,0,0.43);
+    -moz-box-shadow: 5px 10px 13px 3px rgba(0,0,0,0.43);
+    box-shadow: 5px 10px 13px 3px rgba(0,0,0,0.43);
+  }
+  .container-game{
+    width: 100%;
+    display: flex;
+    margin-top: 10%;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .space{
+    margin-bottom: 4%;
+  }
+  #LoadModal{
+    display: block;
+  }
+
+  /* Mi cuenta */
+.MiCuenta{
+  background: #f8f6fb;
+}
+
+/* Id's de validación de Campos */
+
+#alertaLogIn{display: block;}
+#alertaRegistro{display: block;}
+
+
+
+/* Animación de Animate.css - en la seccion del formulario */
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+@keyframes fadeOutDown {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+.fadeOutDown {
+  animation-name: fadeOutDown;
+}
+
+
+@keyframes bounceOutUp {
+  20% {
+    transform: translate3d(0, -10px, 0);
+  }
+
+  40%,
+  45% {
+    opacity: 1;
+    transform: translate3d(0, 20px, 0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(0, -2000px, 0);
+  }
+}
+
+.bounceOutUp {
+  animation-name: bounceOutUp;
+}
+
+@keyframes bounceInRight {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  from {
+    opacity: 0;
+    transform: translate3d(3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(-25px, 0, 0);
+  }
+
+  75% {
+    transform: translate3d(10px, 0, 0);
+  }
+
+  90% {
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.bounceInRight {
+  animation-name: bounceInRight;
+}
+
+/* Countdown */
+.CountDown ul{
+  display: flex;
+  color: white;
+  margin-top: 2%;
+  padding: 1%;
+  border: 2px solid white;
+  text-shadow: 2px 0px 3px rgba(0,0,0,0.46);
+}
+.CountDown li{
+  list-style: none;
+  padding: 3%;
+  font-size: 18pt;
+}
+#footerDown{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.img-fluid-height{
+  height: 100%;
+}
+#heightFull{
+  height: 100%;
+}
+.img-height{
+  height: 100% !important;
+}
+#teaster{
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  background-image: url('http://promofedex.com.mx/Fondo.png');
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: cover;
+}
+#headerTeaster{
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+@media only screen and (max-width: 991px) {
+  /*Desaparece el icono de ingresa en la version Mobile*/
+  #absolute-2{
+    padding-top: 20%;
+  }
+  #icon-cuenta {
+    display: none;
+  }
+  #absolute{
+    margin-top: -24%;
+  }
+  #absolute h1{
+    font-size: 32pt;
+  }
+  #absolute h2{
+    font-size: 14pt;
+  }
+  h1{
+    font-size: 38pt;
+  }
+  h2{
+    font-size: 13pt;
+  }
+  .icono{
+    width: 60%;
+  }
+  footer h4{
+    height: 20px;
+    border-left: none;
+    font-size: 14pt;
+    padding-left: 0%;
+  }
+  .margen-img{
+    margin-top: 20%;
+    margin-bottom: 2%;
+  }
+  .TitulosGame{
+    font-size: 28pt;
+    font-weight: 700;
+    margin-bottom: 6%;
+    text-align: center;
+  }
+  .smalltext{
+    font-size: 10pt;
+  }
+  .TituloDestacado{
+    font-size: 16pt;
+    font-weight: 400;
+    font-family: "Univers-bold",sans-serif;
+    color: #4c148c;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: left;
+  }
+  .Vigencia{
+    font-size: 10pt;
+    margin-bottom: 0%;
+    text-shadow: 2px 0px 3px rgba(0,0,0,0.46);
+  }
+  footer h4{
+    height: 20px;
+    border-left: none;
+    font-size: 10pt;
+    padding-left: 0%;
+  }
+  .linkMecanica{
+    margin-top: 3%;
+  }
+  .bottom{
+    width: 100%;
+    position: static;
+    bottom: auto;
+  }
+  .bigtext{
+    font-size: 12pt;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .linea{
+    border-left: none;
+  }
+  #absolute{
+    margin-top: -35%;
+  }
+  .bottom{
+    width: 100%;
+    position: static;
+    bottom: auto;
+  }
+}
+@media only screen and (max-width: 576px) {
+  #absolute{
+    margin-top: -60%;
+  }
+  .bottom{
+    width: 100%;
+    /*position: absolute;*/
+    bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  /*Desaparece el icono de ingresa en la version Mobile*/
+  .CountDown ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .CountDown li{
+    font-size: 12pt;
+  }
+  #absolute-2{
+    padding-top: 35%;
+  }
+  #icon-cuenta {
+    display: none;
+  }
+  #absolute{
+    margin-top: -83%;
+  }
+  h1{
+    font-size: 26pt !important;
+    padding: 0% 5% 0% 5%;
+  }
+  h2{
+    font-size: 14pt;
+    padding: 0% 8% 0% 8%;
+  }
+  .Formulario{
+    width: 100%;
+  }
+  .TituloForm{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Vertical{
+    width: 50px;
+    height: 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-left: 0px;
+    border-bottom: 2px solid white;
+  }
+  footer .Vertical{
+    display: none;
+  }
+  .TituloForm h2{
+    width: 100%;
+    font-size: 16pt;
+    text-align: center;
+  }
+  .TituloForm h2:last-child{
+    font-family: "Univers-Condensed", sans-serif;
+    font-weight: 100;
+  }
+  .smallInput{
+    width: 100%;
+  }
+  footer{
+    display: flex;
+    flex-wrap:wrap;
+  }
+  .copyright{
+    margin-top: 5%;
+  }
+  footer h4{
+    height: 20px;
+    border-left: none;
+    font-size: 14pt;
+    padding-left: 0%;
+  }
+  .margen-img{
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+  .margen h2{
+    padding: 0%;
+  }
+  .textmobile{
+    font-size: 24pt;
+    margin-bottom: 20%;
+  }
+  .marginBottom{
+    margin-bottom: 10%;
+  }
+  .centerMobile{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+  }
+  .TitulosGame{
+    font-size: 26pt;
+    font-weight: 700;
+    margin-bottom: 6%;
+    margin-top: 3%;
+    text-align: center;
+  }
+  .ValidationBox{
+    width: 100%;
+  }
+  .TituloDestacado{
+    font-size: 16pt;
+    font-weight: 400;
+    font-family: "Univers-bold",sans-serif;
+    color: #4c148c;
+    margin-top: 0%;
+    margin-bottom: 10%;
+    text-align: center;
+  }
+  .Vigencia{
+    font-size: 10pt;
+    margin-bottom: 0%;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-shadow: 2px 0px 3px rgba(0,0,0,0.46);
+  }
+
+    .linkMecanica{
+      margin-top: 10%;
+    }
+    .bottom{
+      width: 100%;
+      position: static;
+      bottom: auto;
+    }
+
+}
+
+.ganador{
+  font-size: 16pt;
+  font-weight: 400;
+  font-family: "Univers-bold",sans-serif;
+  color: #4c148c;
+  text-align: center;;
+}

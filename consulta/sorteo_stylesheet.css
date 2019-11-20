@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #fdf6e4;
+	height: 100%;
+	margin-top: 0px;
+	min-height: 100%;
+    height: auto;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+
+}
+#contenedor {
+	background-color: #e8e7d3;
+	width: 850px;
+	height:100%;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 0px;
+	min-height: 100%;
+    height: auto;
+	-moz-box-shadow: 0px 0px 30px #cec2a2;
+	-webkit-box-shadow: 0px 0px 30px #cec2a2;
+}
+#contenido {
+	width: 750px;
+	height:100%;
+	margin-left: 50px;
+	min-height: 100%;
+    height: auto;
+    background-color: #FFF;
+	-moz-box-shadow: 0px 0px 20px #b1b1a1;
+	-webkit-box-shadow: 0px 0px 20px #b1b1a1;
+}
+#header {
+	background-color: #E8E7D3;
+}
+#contenedor2 {
+	background-color: #e8e7d3;
+	width: 90%;
+	height:100%;
+	min-height: 100%;
+    height: auto;
+
+	margin-left: auto;
+    margin-right: auto;
+	-moz-box-shadow: 0px 0px 30px #cec2a2;
+	-webkit-box-shadow: 0px 0px 30px #cec2a2;
+}
+
+#contenido2 {
+	width: 90%;
+	height:100%;
+	min-height: 100%;
+    height: auto;
+	margin-left: 50px;
+	background-color: #FFF;
+	-moz-box-shadow: 0px 0px 20px #b1b1a1;
+	-webkit-box-shadow: 0px 0px 20px #b1b1a1;
+}
+
+.puntero{
+  cursor: pointer;
+}

@@ -1,0 +1,2 @@
+[28-Sep-2018 17:32:16 America/Chicago] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 38614941 bytes) in /home/promofex/public_html/calificador/excel/simplexlsx.class.php on line 528
+[08-Oct-2018 11:26:40 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/promofex/public_html/calificador/calificar.php on line 439
