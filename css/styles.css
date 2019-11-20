@@ -528,6 +528,7 @@ footer h4{
   text-align: center;
 }
 .linea{
+  width: 100%;
   border-left: 1px solid white;
   height: 20px;
 }
