@@ -111,6 +111,9 @@ h3{
   margin-bottom: 20px;
   font-family: "Univers-bold",sans-serif;
 }
+.fontFedex{
+  font-family: "univers-condensed-bold",sans-serif;
+}
 .bigtext{
   font-size: 16pt;
   color: #4c148c;
