@@ -50,7 +50,7 @@ $response = array (
 //vigencia de promocion
 $vigencia=false;
 $inicioPromo=date("2019-09-23");
-$finPromo=date("2019-11-30");
+$finPromo=date("2020-01-05");
 $vigencia=check_in_range($inicioPromo, $finPromo, $hoy);
 
 
