@@ -1121,3 +1121,11 @@ footer h4{
 .size-modal-text a{
   font-weight: bold;
 }
+
+#alertaNoGuia{
+  display: none;
+}
+.padding-top-bottom{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}

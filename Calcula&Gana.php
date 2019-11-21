@@ -198,18 +198,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <p class="ModalText">Si eres 1 de los 5 clientes semanales en acercarte al número de cajas en el menor tiempo posible, ganarás un increíble kit cafetero.</p>
                 </div>
               </div>
+
+              <!--INPUT | ALERTA-->
               <div class="row">
+                <div class="col-12" id="alertaNoGuia">
+                  <p class="ValidationRegistro naranja padding-top-bottom">Podrás ingresar: Guía de servicios nacionales (9 dígitos) o Guía Internacional de exportación (12 dígitos)</p>
+                </div>
                 <div class="col-12">
                   <form class="" action="" method="post" onsubmit="validador()">
-                    <input class="textcenter" id="NoGuia" type="text" name="NoGuia" size="12" maxlength="12" onkeypress="return permite(event, 'num')" placeholder="Escriba su No. de guía FedEx">
+                    <input class="textcenter" id="NoGuia" type="text" name="" value="" size="12" maxlength="12" onclick="DisclaimerChile()" placeholder="*Escriba su No. de guía FedEx">
                   </form>
                 </div>
               </div>
-              <div class="row" id="error">
-                <div class="col-12 textcenter">
-                  <p>Número de guía incorrecto o registrado anteriormente</p>
-                </div>
-              </div>
+              
               <div class="row">
                 <div class="col-12">
                   <button type="button" class="btn btn-primary btn-lg maxwidth EndPage" id="validaGuia" >Participar</button>
@@ -300,5 +301,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         easing: 'ease-in-out-sine'
       });
     </script>
+    <script src="js/fedex.js"></script>
   </body>
 </html>
