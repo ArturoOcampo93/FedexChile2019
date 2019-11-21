@@ -252,9 +252,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
       </div>
     </main>
-		<footer class="bottom">
+		<footer>
       <div class="container">
-        <div class="row">
+        <div class="row center">
           <div class="col-12 col-md-3 center linea">
             <h4><a href="PDF/TC-FedEx.pdf" target="_blank">Términos y Condiciones de uso</a></h4>
           </div>
@@ -264,9 +264,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div class="col-12 col-md-3 center linea">
             <h4><a href="https://www.fedex.com/es-mx/privacy-policy.html" target="_blank">Declaración de Privacidad</a></h4>
           </div>
-          <div class="col-12 col-md-3 center linea">
+
+          <!--
+          <div class="col-12 col-md-2 center linea">
             <h4><a href="PDF/FAQs.pdf" target="_blank">FAQs</a></h4>
           </div>
+          -->
+
+          <div class="col-12 col-md-3 center linea">
+            <h4><a href="#" data-toggle="modal" data-target="#contacto">Contacto</a></h4>
+          </div>
+        
         </div>
         <div class="row">
           <div class="col-12 center">

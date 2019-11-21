@@ -1071,17 +1071,30 @@ footer h4{
   color: white;
   text-shadow: 2px 0px 3px rgba(0,0,0,0.46);
   line-height: 1;
+  margin-bottom: 4%;
+  text-align: left;
 }
 #absolute-2 h2{
   width: 100%;
+  text-align: left;
   font-size: 20pt;
   color: white;
   text-shadow: 2px 0px 3px rgba(0,0,0,0.46);
 }
 #absolute-2{
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
   align-items: center;
+  margin-left: 10%;
+}
+.left{
+  justify-content: start !important;
+  margin-left: 0% !important;
+  padding: 0% !important;
+}
+.Vigencia{
+  font-size: 14pt;
+  text-align: left;
 }
