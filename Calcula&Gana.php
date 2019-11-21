@@ -185,7 +185,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <div class="row">
                 <div class="col-12 textcenter">
                   <h2 class="TitulosModal">¿Cuántas cajas hay<br>en la figura?</h2>
-                  <p class="ModalText">Si eres 1 de los 5 clientes semanales en acercarte al número de cajas en el menor tiempo posible, ganarás un increible kit cafetero.</p>
+                  <p class="ModalText">Si eres 1 de los 5 clientes semanales en acercarte al número de cajas en el menor tiempo posible, ganarás un increíble kit cafetero.</p>
                 </div>
               </div>
               <div class="row">
@@ -217,42 +217,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
       </div>
 
-
-    <!-- Modal | Contacto-->
-    <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalCenterTitle">Contacto</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p class="textcenter size-modal-text">Para más información y dudas acerca de la promoción comunícate al <a href="tel:223616000">223616000</a></p>
-            <hr>
-            <p class="textcenter size-modal-text">También puedes escribirnos a: <a href="mailto:promofedexchile@corp.ds.fedex.com?subject=Hola,%20tengo%20una%20pregunta">promofedexchile@corp.ds.fedex.com</a></p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-          </div>
-        </div>
-      </div>
-    </div>>
-
-
     </main>
 		<footer>
       <div class="container">
         <div class="row center">
-          <div class="col-12 col-md-3 center linea">
+
+          <!--
+          <div class="col-12 col-md-4 center linea">
             <h4><a href="PDF/TC-FedEx.pdf" target="_blank">Términos y Condiciones de uso</a></h4>
           </div>
-          <div class="col-12 col-md-3 center linea">
+          -->
+
+          <div class="col-12 col-md-4 center linea">
             <h4><a href="PDF/AvisoPrivacidad.pdf" target="_blank">Aviso de Privacidad</a></h4>
           </div>
-          <div class="col-12 col-md-3 center linea">
-            <h4><a href="https://www.fedex.com/es-mx/privacy-policy.html" target="_blank">Declaración de Privacidad</a></h4>
+          <div class="col-12 col-md-4 center linea">
+            <h4><a href="https://www.fedex.com/es-cl/privacy-policy.html" target="_blank">Declaración de Privacidad</a></h4>
           </div>
 
           <!--
@@ -273,6 +253,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
       </div>
     </footer>
+
+    <!-- Modal | Contacto-->
+    <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Contacto</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="textcenter size-modal-text">Para más información y dudas acerca de la promoción comunícate al <a href="tel:223616000">223616000</a> y <a href="tel:223605100">223605100</a></p>
+            <hr>
+            <p class="textcenter size-modal-text">También puedes escribirnos a: <a href="mailto:promofedexchile@corp.ds.fedex.com?subject=Hola,%20tengo%20una%20pregunta">promofedexchile@corp.ds.fedex.com</a></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Scripts Bootstrap 4.3, AOS Library & Arturo -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
