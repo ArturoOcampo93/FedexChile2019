@@ -1109,3 +1109,10 @@ footer h4{
   font-size: 14pt;
   text-align: left;
 }
+.size-modal-text{
+  font-size: 16pt;
+  color: #4c148c;
+}
+.size-modal-text a{
+  font-weight: bold;
+}

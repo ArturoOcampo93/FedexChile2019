@@ -90,6 +90,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           </div>
         </div>
       </div>
+
+      <!-- Modal | Contacto-->
+      <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Contacto</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="textcenter size-modal-text">Para más información y dudas acerca de la promoción comunícate al <a href="tel:223616000">223616000</a></p>
+            <hr>
+            <p class="textcenter size-modal-text">También puedes escribirnos a: <a href="mailto:promofedexchile@corp.ds.fedex.com?subject=Hola,%20tengo%20una%20pregunta">promofedexchile@corp.ds.fedex.com</a></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     </main>
 		<footer>
       <div class="container">
