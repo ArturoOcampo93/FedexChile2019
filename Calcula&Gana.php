@@ -40,37 +40,27 @@ $semana = date("W");
 $imagen = "Calcula-Gana.png";
 //$imagen = "";
 switch ($semana) {
-	case '39':
+	case '47':
 		$imagen = "SOBRE.png";
 		break;
-	case '40':
+	case '48':
+		$imagen = "SOBRE.png";
+		break;
+	case '49':
 		$imagen = "FLECHA.png";
 		break;
-	case '41':
+	case '50':
 		$imagen = "CARRITO.png";
 		break;
-	case '42':
+	case '51':
 		$imagen = "SIGNO_DE_PESOS.png";
 		break;
-	case '43':
+	case '52':
 		$imagen = "CASA.png";
 		break;
-	case '44':
-		$imagen = "REPUBLICA.png";
-		break;
-	case '45':
+	case '1':
 		$imagen = "CAJA.png";
 		break;
-	case '46':
-		$imagen = "REGALO.png";
-		break;
-	case '47':
-		$imagen = "CAMIONETA.png";
-		break;
-	case '48':
-		$imagen = "AVION.png";
-		break;
-
 
 }
 
@@ -274,7 +264,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div class="col-12 col-md-3 center linea">
             <h4><a href="#" data-toggle="modal" data-target="#contacto">Contacto</a></h4>
           </div>
-        
+
         </div>
         <div class="row">
           <div class="col-12 center">
