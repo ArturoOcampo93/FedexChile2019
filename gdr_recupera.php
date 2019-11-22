@@ -59,9 +59,9 @@ if (isset($_POST['usuario']) ) {
         </html>';
 				$headers = "MIME-Version: 1.0\r\n";
 				$headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
-				$headers .= "From: noreply@promofedex.com.mx\r\n";
-				$headers .= "Reply-To: noreply@promofedex.com.mx\r\n";
-				$headers .= "Return-path: noreply@promofedex.com.mx\r\n";
+				$headers .= "From: noreply@promofedexchile.com\r\n";
+				$headers .= "Reply-To: noreply@promofedexchile.com\r\n";
+				$headers .= "Return-path: noreply@promofedexchile.com\r\n";
 
 				mail($data['usuario'],$asunto,utf8_decode($cuerpo),$headers);
 
@@ -76,7 +76,6 @@ if (isset($_POST['usuario']) ) {
 }else{
   $response["error_msg"]="Todos los datos son obligatorios";
 }
-
 
 echo json_encode($response);
 ?>
