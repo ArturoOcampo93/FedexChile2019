@@ -81,7 +81,15 @@ function validaFecha(){
 //Validador de No. de Guia
 function validador(){
   var guia = document.getElementById('NoGuia').value;
-  if (guia.length < 12) {
+  var correcta = "no";
+
+  if (guia.length == 12) {
+    correcta = "si";
+  }
+  if (guia.length == 9) {
+    correcta = "si";
+  }
+  if (correcta == "no") {
     document.getElementById("error").style.display = "block";
   }
   else {

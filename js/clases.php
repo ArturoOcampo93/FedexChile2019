@@ -4,18 +4,18 @@ conexion a base de datos
 ***********************/
 class dbMySQL{
 
-	private $host = "localhost";
+	/*private $host = "localhost";
 	private $usuario = "root";
 	private $clave = "";
 	private $db = "fedex19";
-	private $conn;
+	private $conn;*/
 
 	//produccion
-	/*private $host = "localhost";
-	private $usuario = "promofex_usr19";
-	private $clave = 'UmEmf_zR0m#F';
-	private $db = "promofex_fedex19";
-	private $conn;*/
+	private $host = "localhost";
+	private $usuario = "fexchile_userchl";
+	private $clave = 'mR2J-o7k3]-5';
+	private $db = "fexchile_dexchile";
+	private $conn;
 
 
 	//conexion a base de datos
@@ -207,7 +207,7 @@ class Guias{
 	//registra nueva guia
 	public static function regGuia($data){
 		$db = new dbMySQL();
-		$dateReg = $db->query("INSERT INTO `tbl_guias` (`cUsuario`,`cGuia`,`cCalculo`,`cFechaIni`,`cFecha`,`cTiempo`,`cDia`,`cSemana`,`cIp`) VALUES ('".$data['usuario']."','".$data['guia']."','".$data['cajas']."','".$data['fechaActual']."','".$data['fecha']."','".$data['tiempo']."','".$data['hoy']."','".$data['semana']."','".$data['ip']."');");
+		$dateReg = $db->query("INSERT INTO `tbl_guias` (`cUsuario`,`cGuia`,`cCalculo`,`cFechaIni`,`cFecha`,`cTiempo`,`cDia`,`cSemana`,`cIp`, `cTipo`) VALUES ('".$data['usuario']."','".$data['guia']."','".$data['cajas']."','".$data['fechaActual']."','".$data['fecha']."','".$data['tiempo']."','".$data['hoy']."','".$data['semana']."','".$data['ip']."','".$data['tipo']."');");
 		$db->close();
 		unset($db);
 	}  //termina registro nueva guia

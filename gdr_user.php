@@ -8,7 +8,7 @@ ini_set('display_errors', 1);
 
 header('Content-Type: text/html; charset=utf-8');
 //zona horarios de mexico
-date_default_timezone_set('America/Mexico_City');
+date_default_timezone_set('America/Santiago');
 $fechad=date("Y-m-d H:i:s");
 $hoy=date("Y-m-d");
 $origen = "web";

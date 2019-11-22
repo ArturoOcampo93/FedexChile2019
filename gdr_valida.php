@@ -8,7 +8,7 @@ $resp = array (
 );
 
 //zona horarios de mexico
-date_default_timezone_set('America/Mexico_City');
+date_default_timezone_set('America/Santiago');
 $fecha=date("Y-m-d H:i:s");
 $hoy=date("Y-m-d");
 //vigencia de promocion

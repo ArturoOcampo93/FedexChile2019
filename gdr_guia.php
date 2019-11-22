@@ -30,7 +30,8 @@ if (isset($_SESSION['fedex19']) ) {  //existe la session
 
 header('Content-Type: text/html; charset=utf-8');
 //zona horarios de mexico
-date_default_timezone_set('America/Mexico_City');
+//date_default_timezone_set('America/Mexico_City');
+date_default_timezone_set('America/Santiago');
 $fechad=date("Y-m-d H:i:s");
 $hoy=date("Y-m-d");
 $semana = date("W");
@@ -64,6 +65,7 @@ if (isset($_POST['cajas']) && isset($_POST['guia']) && isset($_POST['fechaActual
 		$data['hoy']=$hoy;
 		$data['semana']=$semana;
 		$data['ip']=$_SERVER['REMOTE_ADDR'];
+		$data['tipo'] = "internacionales";
 		//valida datos
 
 		//cajas
@@ -73,8 +75,17 @@ if (isset($_POST['cajas']) && isset($_POST['guia']) && isset($_POST['fechaActual
 		}
 
 		//cajas
-		if (!preg_match('/^[0-9]{12,12}$/', $data['guia'])) {
+		if (!preg_match('/^[0-9]{9,12}$/', $data['guia'])) {
 			$response["error_msg"].= 'Solo números para el numero de guia. ';
+			$valid = false;
+		}
+
+		if ( strlen($data['guia']) == 9) {
+			$data['tipo'] = "nacionales";
+		}
+
+		if ( strlen($data['guia']) == 9 || strlen($data['guia']) == 12) {}else{
+			$response["error_msg"].= 'Formato de guia incorrecto. ';
 			$valid = false;
 		}
 

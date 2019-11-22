@@ -185,7 +185,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <div class="row">
                 <div class="col-12 textcenter">
                   <h2 class="TitulosModal">¿Cuántas cajas hay<br>en la figura?</h2>
-                  <p class="ModalText">Si eres 1 de los 5 clientes semanales en acercarte al número de cajas en el menor tiempo posible, ganarás un increíble kit cafetero.</p>
+                  <p class="ModalText">Si eres 1 de los 3 clientes semanales en acercarte al número de cajas en el menor tiempo posible, ganarás un increíble kit cafetero.</p>
                 </div>
               </div>
               <div class="row">
