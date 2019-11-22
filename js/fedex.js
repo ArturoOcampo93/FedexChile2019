@@ -48,3 +48,21 @@ function alertFunc() {
 function close(){
   document.getElementById('alertaNombre').style.display = "none";
 }
+
+// Alerta No. de Guía - Chile
+function DisclaimerChile() {
+  document.getElementById('alertaNoGuia').style.display = "block";
+  document.getElementById("alertaNoGuia").style.animation = "fadeInUp 2s 1";
+  var x = myFunctionChile();
+}
+function myFunctionChile() {
+  var myVar = setTimeout(alertFuncChile, 5000);
+}
+
+function alertFuncChile() {
+  document.getElementById("alertaNoGuia").style.animation = "fadeOutDown 2s 1";
+  var y = setTimeout(closeChile,2000);
+}
+function closeChile(){
+  document.getElementById('alertaNoGuia').style.display = "none";
+}
