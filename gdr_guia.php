@@ -75,16 +75,19 @@ if (isset($_POST['cajas']) && isset($_POST['guia']) && isset($_POST['fechaActual
 		}
 
 		//cajas
-		if (!preg_match('/^[0-9]{9,12}$/', $data['guia'])) {
+		if (!preg_match('/^[0-9]{8,12}$/', $data['guia'])) {
 			$response["error_msg"].= 'Solo números para el numero de guia. ';
 			$valid = false;
 		}
 
+		if ( strlen($data['guia']) == 8) {
+			$data['tipo'] = "nacionales";
+		}
 		if ( strlen($data['guia']) == 9) {
 			$data['tipo'] = "nacionales";
 		}
 
-		if ( strlen($data['guia']) == 9 || strlen($data['guia']) == 12) {}else{
+		if ( strlen($data['guia']) == 8 || strlen($data['guia']) == 9 || strlen($data['guia']) == 12) {}else{
 			$response["error_msg"].= 'Formato de guia incorrecto. ';
 			$valid = false;
 		}
@@ -124,7 +127,7 @@ if (isset($_POST['cajas']) && isset($_POST['guia']) && isset($_POST['fechaActual
 		}
 
 	}else{
-		$response["error_msg"]="Vigencia de la promoción del 23 de septiembre al 30 de noviembre del 2019.";
+		$response["error_msg"]="Vigencia de la promoción del 25 de noviembre de 2019 al 05 de enero del 2020.";
 	}
 }else{
 

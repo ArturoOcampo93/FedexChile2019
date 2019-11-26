@@ -55,8 +55,8 @@ if (isset($_POST['Nombre']) && isset($_POST['apellidos']) && isset($_POST['telef
 		}
 
 		//celular
-		if (!preg_match('/^[0-9]{10,10}$/', $data['telefono'])) {
-			$response["error_msg"].= 'Solo números para el celular 10 dígitos. ';
+		if (!preg_match('/^[0-9]{9,12}$/', $data['telefono'])) {
+			$response["error_msg"].= 'Solo números para el celular, hasta 12 dígitos. ';
 			$valid = false;
 		}
 
@@ -94,7 +94,7 @@ if (isset($_POST['Nombre']) && isset($_POST['apellidos']) && isset($_POST['telef
 		}
 
 	}else{
-		$response["error_msg"]="Vigencia de la promoción del 23 de septiembre al 30 de noviembre del 2019.";
+		$response["error_msg"]="Vigencia de la promoción del 25 de noviembre de 2019 al 05 de enero del 2020.";
 	}
 }else{
 

@@ -192,7 +192,7 @@ switch ($semana) {
               <!--INPUT | ALERTA-->
               <div class="row">
                 <div class="col-12" id="alertaNoGuia">
-                  <p class="ValidationRegistro naranja padding-top-bottom">Podrás ingresar: Guía de servicios nacionales (9 dígitos) o Guía Internacional de exportación (12 dígitos)</p>
+                  <p class="ValidationRegistro naranja padding-top-bottom">Podrás ingresar: Guía de servicios nacionales (8 y 9 dígitos) o Guía Internacional de exportación (12 dígitos)</p>
                 </div>
                 <div class="col-12">
                   <form class="" action="" method="post" onsubmit="validador()">

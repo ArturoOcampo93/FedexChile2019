@@ -144,7 +144,7 @@
             </div>
             <div class="row">
               <div class="col-12 col-md-12">
-                <input type="text" name="telefono" id="telefono" placeholder="Teléfono de contacto*" onkeypress="return permite(event, 'num')" maxlength="10">
+                <input type="text" name="telefono" id="telefono" placeholder="Teléfono de contacto*" onkeypress="return permite(event, 'num')" maxlength="12">
               </div>
             </div>
             <div class="row">
@@ -589,10 +589,10 @@
       var fecha = new Date();
       var dia=fecha.getDate();
 
-      if(dia<25){
+      //if(dia<25){
         //$("#1promo").show('slow/400/fast', function() {	});
-        window.location='teaser.html';
-      }
+        //window.location='teaser.html';
+      //}
 
       validaActivo();
     });

@@ -71,7 +71,7 @@ if (isset($_POST['usuario']) ) {
 			}
     }
   }else{
-    $response["error_msg"]="Vigencia de la promoción del 23 de septiembre al 30 de noviembre del 2019.";
+    $response["error_msg"]="Vigencia de la promoción del 25 de noviembre de 2019 al 05 de enero del 2020.";
   }
 }else{
   $response["error_msg"]="Todos los datos son obligatorios";
