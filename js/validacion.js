@@ -86,6 +86,9 @@ function validador(){
   if (guia.length == 12) {
     correcta = "si";
   }
+  if (guia.length == 8) {
+    correcta = "si";
+  }
   if (guia.length == 9) {
     correcta = "si";
   }

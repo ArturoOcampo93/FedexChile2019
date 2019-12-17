@@ -13,7 +13,7 @@ $fecha=date("Y-m-d H:i:s");
 $hoy=date("Y-m-d");
 //vigencia de promocion
 $vigencia=false;
-$inicioPromo=date("2019-09-23");
+$inicioPromo=date("2019-11-25");
 $finPromo=date("2020-01-05");
 $vigencia=check_in_range($inicioPromo, $finPromo, $hoy);
 
@@ -71,7 +71,7 @@ if (isset($_POST['usuario']) ) {
 			}
     }
   }else{
-    $response["error_msg"]="Vigencia de la promoción del 23 de septiembre al 30 de noviembre del 2019.";
+    $response["error_msg"]="Vigencia de la promoción del 25 de noviembre de 2019 al 05 de enero del 2020.";
   }
 }else{
   $response["error_msg"]="Todos los datos son obligatorios";

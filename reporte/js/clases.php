@@ -12,11 +12,10 @@ class dbMySQL{
 
 	//produccion
 	private $host = "localhost";
-	private $usuario = "promofex_usr19";
-	private $clave = 'UmEmf_zR0m#F';
-	private $db = "promofex_fedex19";
+	private $usuario = "fexchile_userchl";
+	private $clave = 'mR2J-o7k3]-5';
+	private $db = "fexchile_dexchile";
 	private $conn;
-
 
 
 	//conexion a base de datos
